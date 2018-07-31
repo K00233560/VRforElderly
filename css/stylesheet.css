@@ -61,7 +61,7 @@ h3 {
 
 @media only screen  and (min-width : 992px) {
 
-.current a:any-link{
+.current a{
     border: 1px powderblue solid;
     padding: 10px;
     //text-shadow: 1px 1px 3px #4c6063;
@@ -69,7 +69,7 @@ h3 {
     background: radial-gradient(rgba(245, 245, 220, 0.1), rgba(38, 33, 35, 0.3));
 }
     
-.links a:any-link   {
+.links a   {
     font-size: 18px;
     background-color: #261b25;
     text-decoration: none;
@@ -319,7 +319,7 @@ button#decreasetext {
     grid-column: 1/ span 3;
 }
 
-#content a:any-link {
+#content a {
     color:#261b25;
 }
 
@@ -367,7 +367,7 @@ button#decreasetext {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
-#content .requestTrialButton a:any-link {
+#content .requestTrialButton a {
     color: powderblue;
     text-decoration: none;
 }
@@ -380,7 +380,7 @@ button#decreasetext {
     //padding: 2em;
 }
 
-#BackToTop a:any-link {
+#BackToTop a{
     color: #261b25;
     //background-color: #261b25;
     //border: 1px #4c6063 solid;
@@ -547,7 +547,7 @@ button#decreasetext {
     padding: 2em;
  }
 
-#benefits .requestTrialButton a:any-link {
+#benefits .requestTrialButton a {
     color: powderblue;
     text-decoration: none;
 } 
@@ -681,7 +681,7 @@ button#decreasetext {
 }
 
 
-#sampleVideos .requestTrialButton a:any-link {
+#sampleVideos .requestTrialButton a {
     color: powderblue;
     text-decoration: none;
 }
@@ -743,7 +743,7 @@ button#decreasetext {
     flex-direction: row;
     }
     
-#breadcrumb ol li a:any-link{
+#breadcrumb ol li a{
     padding: 10px;
     color:#261b25;
     font-family: 'Source Sans Pro', sans-serif;
@@ -826,13 +826,13 @@ button#decreasetext {
 
 @media only screen and (min-width : 665px) and (max-width : 991px){
 
-.current a:any-link{
+.current a{
     border: 1px powderblue solid;
     padding: 8px;
     background: radial-gradient(rgba(245, 245, 220, 0.1), rgba(38, 33, 35, 0.3));
 }
         
-.links a:any-link   {
+.links a   {
     font-size: 18px;
     background-color: #261b25;
     text-decoration: none;
@@ -1081,8 +1081,8 @@ button#decreasetext {
     grid-column: 1/ span 3;
 }
 
-#content a:any-link {
-    color:#261b25;
+#content a {
+    color:powderblue;
 }
 
 #content .info{
@@ -1129,7 +1129,7 @@ button#decreasetext {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
-#content .requestTrialButton a:any-link {
+#content .requestTrialButton a {
     color: powderblue;
     text-decoration: none;
 }
@@ -1152,7 +1152,7 @@ button#decreasetext {
     background-color: rgba(250, 250, 250, 0.8);
     }
     
-#BackToTop a:any-link {
+#BackToTop a{
     color: #261b25;
     padding: .5em;
     text-decoration: none;
@@ -1286,7 +1286,7 @@ button#decreasetext {
     padding: 2em;
  }
 
-#benefits .requestTrialButton a:any-link {
+#benefits .requestTrialButton a{
     color: powderblue;
     text-decoration: none;
     align-self: center;
@@ -1456,7 +1456,7 @@ button#decreasetext {
 }
 
 
-#sampleVideos .requestTrialButton a:any-link {
+#sampleVideos .requestTrialButton a {
     color: powderblue;
     text-decoration: none;
 }
@@ -1516,7 +1516,7 @@ button#decreasetext {
     flex-direction: row;
     }
     
-#breadcrumb ol li a:any-link{
+#breadcrumb ol li a{
     padding: 10px;
     padding-left: 0px;
     color:#261b25;
@@ -1620,12 +1620,12 @@ button#decreasetext {
 
 @media screen and (max-width:665px) {
 
-.current a:any-link{
+.current a{
     background-color: powderblue;
     padding: 1em;
 }
 
-.links a:any-link   {
+.links a   {
     font-size: 18px;
     background-color: #261b25;
     text-decoration: none;
@@ -1914,11 +1914,11 @@ button#decreasetext {
     grid-column: 1/ span 3;
 }
 
-#content a:any-link {
+#content a {
     color:powderblue;
 }
     
-#content .about a:any-link {
+#content .about a {
     color:#261b25;
 }
 
@@ -1926,7 +1926,7 @@ button#decreasetext {
     background-color: #261b25;
     }    
 
-#content .info a:any-link{
+#content .info a{
     color: powderblue;
         
     }
@@ -2003,7 +2003,7 @@ button#decreasetext {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
-#content .requestTrialButton a:any-link {
+#content .requestTrialButton a {
     color: powderblue;
     text-decoration: none;
     align-self: center;
@@ -2027,7 +2027,7 @@ button#decreasetext {
     background-color: rgba(250, 250, 250, 0.8);
     }
     
-#BackToTop a:any-link {
+#BackToTop a {
     color: #261b25;
     padding: .5em;
     text-decoration: none;
@@ -2172,7 +2172,7 @@ button#decreasetext {
     justify-content: center;
  }
 
-#benefits .requestTrialButton a:any-link {
+#benefits .requestTrialButton a {
     color: powderblue;
     text-decoration: none;
 } 
@@ -2195,7 +2195,7 @@ button#decreasetext {
     background-color: rgba(250, 250, 250, 0.8);
     }
     
-#BackToTop a:any-link {
+#BackToTop a {
     color: #261b25;
     padding: .5em;
     text-decoration: none;
@@ -2311,7 +2311,7 @@ button#decreasetext {
     background-color: rgba(250, 250, 250, 0.8);
     }
     
-#BackToTop a:any-link {
+#BackToTop a {
     color: #261b25;
     padding: .5em;
     text-decoration: none;
@@ -2361,7 +2361,7 @@ button#decreasetext {
 }
 
 
-#sampleVideos .requestTrialButton a:any-link {
+#sampleVideos .requestTrialButton a {
     color: powderblue;
     text-decoration: none;
 }
@@ -2410,7 +2410,7 @@ button#decreasetext {
     flex-direction: row;
     }
     
-#breadcrumb ol li a:any-link{
+#breadcrumb ol li a{
     padding: 10px;
     padding-left: 0px;
     color:#261b25;
