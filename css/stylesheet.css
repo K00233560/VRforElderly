@@ -1139,6 +1139,7 @@ button#decreasetext {
     grid-column: 1/ span 3;
     display:grid;
     justify-content: center;
+    align-content: center;
     padding: .5em;
     position:sticky;
     bottom: 0px;
@@ -1163,6 +1164,7 @@ button#decreasetext {
     border-radius: 10px;
     font-weight: bold;
     text-align: center;
+    align-self: center;
 }
 
 
