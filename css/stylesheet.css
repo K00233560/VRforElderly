@@ -1277,13 +1277,14 @@ button#decreasetext {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    color: #261b25;}
+    color: #261b25;
+}
     
 #benefits .requestTrial{
     grid-row-start: 6;
     grid-column: 1/ span 3;
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 2fr 1fr;
     grid-template-rows: 1fr;
     align-content: center;
     padding: 2em;
@@ -1291,6 +1292,7 @@ button#decreasetext {
  }
 
 #benefits .requestTrialButton a{
+    grid-column-start: 2;
     color: powderblue;
     text-decoration: none;
     align-self: center;
