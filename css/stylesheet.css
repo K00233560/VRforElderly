@@ -644,7 +644,7 @@ button#decreasetext {
 
 
 .thumbnail {
-    border: 1px #261b25 solid;
+    border: 1px rgba(122, 118, 83, 0.6) solid;
     box-shadow: 1px 1px 8px rgba(38, 33, 35, 0.6);
     opacity: 1;
     display: block;
@@ -1574,7 +1574,7 @@ button#decreasetext {
 #googleform {
     grid-row-start: 1;
     grid-column-start: 2;
-    border: 2px #261b25 solid;
+    border: 2px rgba(122, 118, 83, 0.6) solid;
 }
 
     
