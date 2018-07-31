@@ -645,9 +645,7 @@ button#decreasetext {
 
 .thumbnail {
     border: 1px #261b25 solid;
-    -moz-box-shadow:    inset 10 10 10px #000000;
-   -webkit-box-shadow: inset 10 10 10px #000000;
-   box-shadow:         inset 10 10 10px #000000;
+    box-shadow: 1px 1px 8px rgba(38, 33, 35, 0.6);
     opacity: 1;
     display: block;
     width: 100%;
