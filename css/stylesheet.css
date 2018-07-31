@@ -803,7 +803,7 @@ button#decreasetext {
 #googleform {
     grid-row-start: 1;
     grid-column-start: 2;
-    border: 2px #261b25 solid;
+    border: 2px rgba(122, 118, 83, 0.6) solid;
 }
 
 
@@ -2455,7 +2455,7 @@ button#decreasetext {
 #googleform {
     grid-row-start: 1;
     grid-column-start: 2;
-    border: 2px #261b25 solid;
+    border: 2px rgba(122, 118, 83, 0.6) solid;
 }
 
     
