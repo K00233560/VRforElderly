@@ -1926,7 +1926,7 @@ button#decreasetext {
     background-color: #261b25;
     }    
 
-#content .info h3 a:any-link{
+#content > a:any-link{
     color: powderblue;
         
     }
