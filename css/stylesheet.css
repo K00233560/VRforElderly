@@ -382,8 +382,6 @@ button#decreasetext {
 
 #BackToTop a{
     color: #261b25;
-    //background-color: #261b25;
-    //border: 1px #4c6063 solid;
     padding: 1em;
     text-decoration: none;
     font-family: 'Source Sans Pro', sans-serif;
@@ -1141,8 +1139,6 @@ button#decreasetext {
     justify-content: center;
     align-content: center;
     padding: .5em;
-    position:sticky;
-    bottom: 0px;
     opacity: 0.8;
 }
     
@@ -1150,7 +1146,6 @@ button#decreasetext {
     opacity: 1;
     font-weight: bold;
     text-shadow: 1px 1px 1px 1px #261b25;
-    background-color: rgba(250, 250, 250, 0.8);
     }
     
 #BackToTop a{
@@ -1304,8 +1299,6 @@ button#decreasetext {
     display:grid;
     justify-content: center;
     padding: .5em;
-    position:sticky;
-    bottom: 0px;
     opacity: 0.8;
 }
     
@@ -1314,7 +1307,6 @@ button#decreasetext {
     opacity: 1;
     font-weight: bold;
     text-shadow: 1px 1px 1px 1px #261b25;
-    background-color: rgba(250, 250, 250, 0.8);
     }
     
 
@@ -1410,8 +1402,6 @@ button#decreasetext {
     display:grid;
     justify-content: center;
     padding: .5em;
-    position:sticky;
-    bottom: 0px;
     opacity: 0.8;
 }
  
@@ -1420,7 +1410,6 @@ button#decreasetext {
     opacity: 1;
     font-weight: bold;
     text-shadow: 1px 1px 1px 1px #261b25;
-    background-color: rgba(250, 250, 250, 0.8);
     }
     
 
@@ -1597,8 +1586,6 @@ button#decreasetext {
     display:grid;
     justify-content: center;
     padding: .5em;
-    position:sticky;
-    bottom: 0px;
     opacity: 0.8;
 }
  
@@ -1607,7 +1594,6 @@ button#decreasetext {
     opacity: 1;
     font-weight: bold;
     text-shadow: 1px 1px 1px 1px #261b25;
-    background-color: rgba(250, 250, 250, 0.8);
     }
     
 
@@ -2021,8 +2007,6 @@ button#decreasetext {
     display:grid;
     justify-content: center;
     padding: .5em;
-    position:sticky;
-    bottom: 0px;
     opacity: 0.8;
 }
     
@@ -2030,7 +2014,6 @@ button#decreasetext {
     opacity: 1;
     font-weight: bold;
     text-shadow: 1px 1px 1px 1px #261b25;
-    background-color: rgba(250, 250, 250, 0.8);
     }
     
 #BackToTop a {
@@ -2189,8 +2172,6 @@ button#decreasetext {
     display:grid;
     justify-content: center;
     padding: .5em;
-    position:sticky;
-    bottom: 0px;
     opacity: 0.8;
 }
     
@@ -2198,7 +2179,6 @@ button#decreasetext {
     opacity: 1;
     font-weight: bold;
     text-shadow: 1px 1px 1px 1px #261b25;
-    background-color: rgba(250, 250, 250, 0.8);
     }
     
 #BackToTop a {
@@ -2305,8 +2285,6 @@ button#decreasetext {
     display:grid;
     justify-content: center;
     padding: .5em;
-    position:sticky;
-    bottom: 0px;
     opacity: 0.8;
 }
     
@@ -2314,7 +2292,6 @@ button#decreasetext {
     opacity: 1;
     font-weight: bold;
     text-shadow: 1px 1px 1px 1px #261b25;
-    background-color: rgba(250, 250, 250, 0.8);
     }
     
 #BackToTop a {
@@ -2490,8 +2467,6 @@ button#decreasetext {
     display:grid;
     justify-content: center;
     padding: 2em;
-    position:sticky;
-    bottom: -2em;
     opacity: 0.8;
 }
     
