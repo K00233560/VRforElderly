@@ -66,7 +66,7 @@ h3 {
     padding: 10px;
     //text-shadow: 1px 1px 3px #4c6063;
     color: powderblue;
-    background: radial-gradient(rgba(245, 245, 220, 0.1), rgba(38, 33, 35, 0.3));
+    background: radial-gradient(rgba(219, 219, 219, 0.3), rgba(38, 27, 37, 0.5));
 }
     
 .links a   {
@@ -829,7 +829,7 @@ button#decreasetext {
 .current a{
     border: 1px powderblue solid;
     padding: 8px;
-    background: radial-gradient(rgba(245, 245, 220, 0.1), rgba(38, 33, 35, 0.3));
+    background: radial-gradient(rgba(219, 219, 219, 0.3), rgba(38, 27, 37, 0.5));
 }
         
 .links a   {
