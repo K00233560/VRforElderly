@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>VR for Elderly</title>
+        <link href="css/stylesheet.css" rel="stylesheet" type="text/css"/>
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js">
+        </script>
+       <script src="/js/jsfile.js"></script>
+    </head>
+    <body>
+        <div id="container">
+            <header id="header">
+                <nav class="menu">
+                    <div id="logo"><a href="index.html"><img src="./img/vrheadsetBAC.png" alt="Website Logo"></a></div>
+                    <div><a href="index.html">HOME</a></div>
+                    <div><a href="page2.html">BENEFITS</a></div>
+                    <div class="current"><a href="page3.html">VR EXPERIENCES</a></div>
+                    <div><a href="page4.html">REQUEST TRIAL</a></div>
+                </nav> 
+                <div class="dropdown">
+                    <div id="mobilelogo"><a href="index.html"><img src="./img/vrheadsetBAC.png" alt="Website Logo"></a></div>
+                    <button onclick="myFunction()" class="dropbtn">MENU</button>
+                    <nav class="dropdown-content" id="myDropdown">
+                        <div><a href="index.html">HOME</a></div>
+                        <div><a href="page2.html">BENEFITS</a></div>
+                        <div><a href="page3.html">VR EXPERIENCES</a></div>
+                        <div><a href="page4.html">REQUEST TRIAL</a></div>
+                    </nav>  
+                </div>
+            </header>
+            <div class="headerimage"><img src="/img/exp.jpg" alt="Image of plane flying"></div>
+             <main id="sampleVideos" role="main"> 
+                <div class="articleheader">
+                <h2>Sample VR Experiences</h2>
+                 <div class="textcontrols">
+			         <button role="button" id="decreasetext" class="tooltip">       
+                        <span> &nbsp; A- &nbsp;</span>
+                        <span class="tooltiptext">Decrease Text Size</span>
+			         </button>
+			         <button role="button" id="resettext" class="tooltip">
+				        <span>&nbsp; A &nbsp;</span>
+                        <span class="tooltiptext">Reset Text Size</span>
+			         </button>
+			         <button role="button" id="increasetext" class="tooltip">
+				        <span>&nbsp; A+ &nbsp;</span>
+                        <span class="tooltiptext">Increase Text Size</span>
+			         </button>
+                        <script>	
+	                       $('#increasetext').click(function() {
+                            curSize = parseInt($('#sampleVideos').css('font-size')) + 2;
+		                      if (curSize <= 32)
+			                     $('#sampleVideos').css('font-size', curSize);
+	                           });
+	                       $('#resettext').click(function() {
+		                      if (curSize != 16)
+                                $('#sampleVideos').css('font-size', 16);
+	                           });
+	                       $('#decreasetext').click(function() {
+		                      curSize = parseInt($('#sampleVideos').css('font-size')) - 2;
+		                      if (curSize >= 14)
+			                     $('#sampleVideos').css('font-size', curSize);
+	                           });
+                        </script>
+		          </div>
+                 </div>
+                <div class="videoContainer">
+                    <div class="videoThumbnail">
+                        <a href="page3a.html">
+                                <img class="thumbnail" src="/img/ferrythumb.PNG" alt="Three sixty video thumbnail">
+                            </a>
+                        <p>Shannon Ferry Trip</p>
+                        </div>
+                        <div class="videoThumbnail">
+                            <a href="page3b.html">
+                                <img class="thumbnail" src="/img/ballybbeachthumb.PNG" alt="Three sixty video thumbnail">
+                            </a>
+                            <p>Ballybunion Beach</p>
+                        </div>
+                    
+                        <div class="videoThumbnail">
+                            <a href="page3c.html">
+                                <img class="thumbnail" src="/img/sessthumb.PNG" alt="Three sixty video thumbnail">
+                            </a>
+                            <p>Music Session</p>                            
+                        </div>
+                        <div class="videoThumbnail">
+                            <a href="page3d.html">
+                                <img class="thumbnail" src="/img/castlegreenthumb.PNG" alt="Three sixty video thumbnail">
+                            </a>
+                            <p>Castle Green, Ballybunion</p>
+                        </div>
+                        <div class="videoThumbnail">
+                            <a href="page3e.html">
+                                <img class="thumbnail" src="/img/adareparkthumb.PNG" alt="Three sixty video thumbnail">
+                            </a>
+                            <p>Adare Park</p>
+                        </div>
+                        <div class="videoThumbnail">
+                            <a href="page3f.html">
+                                <img class="thumbnail" src="/img/donerailethumb.PNG" alt="Three sixty video thumbnail">
+                            </a>
+                            <p>Doneraile Park</p>
+                        </div>
+                        <div class="videoThumbnail">
+                            <a href="page3g.html">
+                                <img class="thumbnail" src="/img/glanteenforrest.PNG" alt="Three sixty video thumbnail">
+                            </a>
+                            <p>Glanteenassig Forrest</p>
+                        </div>
+                        <div class="videoThumbnail">
+                            <a href="page3h.html">
+                                <img class="thumbnail" src="/img/glanteenpath.PNG" alt="Three sixty video thumbnail">
+                            </a>
+                            <p>Glanteenassig Path</p>
+                        </div>
+                        <div class="videoThumbnail">
+                            <a href="page3i.html">
+                                <img class="thumbnail" src="/img/knockanorethumb.PNG" alt="Three sixty video thumbnail">
+                            </a>
+                            <p>Drive Down Knockanore Hill</p>
+                        </div>
+                    </div>
+                 <div class="requestTrial">
+                        <div class="requestTrialButton"> 
+                        <a href="page4.html">REGISTER INTEREST
+                        </a>
+                        </div>
+                    </div>
+                <div id="BackToTop">
+                    <a href="#top"><img src="/img/top1.png" alt="Back to top of page Icon">Back to Top</a>
+                </div>
+                </main>
+                <div id="footer">
+                <div id="companydetails">
+                    <div id="SimVirtua">
+                        <a href=""><img src="/img/simvirtuaLogo.png" alt="SimVirtua Logo"></a>
+                        <p>
+                        Simvirtua Ltd.<br>
+                        Hartnett Enterprise Acceleration Centre<br>
+                        Limerick Institute of Technology<br>
+                        Moylish Park<br>
+                        Limerick<br>
+                        T: 087-320-7756
+                        </p>
+                    </div>
+                   <div class="facebookLink">
+                    <a href=""><img src="/img/facebookLink.png" alt="Facebook Logo"></a>
+                    </div>
+               </div>
+            </div>
+        </div>
+    </body>
+</html>
+        

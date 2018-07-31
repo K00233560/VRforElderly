@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>VR for Elderly</title>
+        <link href="css/stylesheet.css" rel="stylesheet" type="text/css"/>
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js">
+        </script>
+        <script src="/js/jsfile.js"></script>
+    </head>
+    <body>
+        <div id="container">
+           <header id="header">
+                <nav class="menu">
+                    <div id="logo"><a href="index.html"><img src="./img/vrheadsetBAC.png" alt="Website Logo"></a></div>
+                    <div><a href="index.html">HOME</a></div>
+                    <div class="current"><a href="page2.html">BENEFITS</a></div>
+                    <div><a href="page3.html">VR EXPERIENCES</a></div>
+                    <div><a href="page4.html">REQUEST TRIAL</a></div>
+                </nav>
+               <div class="dropdown">
+                    <div id="mobilelogo"><a href="index.html"><img src="./img/vrheadsetBAC.png" alt="Website Logo"></a></div>
+                    <button onclick="myFunction()" class="dropbtn">MENU</button>
+                    <nav class="dropdown-content" id="myDropdown">
+                        <div><a href="index.html">HOME</a></div>
+                        <div><a href="page2.html">BENEFITS</a></div>
+                        <div><a href="page3.html">VR EXPERIENCES</a></div>
+                        <div><a href="page4.html">REQUEST TRIAL</a></div>
+                    </nav>  
+                </div>
+            </header>
+            <div class="headerimage"><img src="/img/bg7.jpg" alt="Image of Sun over Mountains"></div>
+             <main id="benefitsinfo" role="main">
+                <div id="benefits">
+                    <div class="articleheader">
+                        <h2>Benefits of VR for Elderly</h2>
+                        <div class="textcontrols">
+			             <button role="button" id="decreasetext" class="tooltip">       
+                            <span> &nbsp; A- &nbsp;</span>
+                            <span class="tooltiptext">Decrease Text Size</span>
+			             </button>
+			             <button role="button" id="resettext" class="tooltip">
+				            <span>&nbsp; A &nbsp;</span>
+                            <span class="tooltiptext">Reset Text Size</span>
+			             </button>
+			             <button role="button" id="increasetext" class="tooltip">
+				            <span>&nbsp; A+ &nbsp;</span>
+                            <span class="tooltiptext">Increase Text Size</span>
+			             </button>
+                        <script>	
+	                       $('#increasetext').click(function() {
+                            curSize = parseInt($('#benefitsinfo').css('font-size')) + 2;
+		                      if (curSize <= 32)
+			                     $('#benefitsinfo').css('font-size', curSize);
+	                           });
+
+	                       $('#resettext').click(function() {
+		                      if (curSize != 16)
+                                $('#benefitsinfo').css('font-size', 16);
+	                       });
+
+	                       $('#decreasetext').click(function() {
+		                  curSize = parseInt($('#benefitsinfo').css('font-size')) - 2;
+		                      if (curSize >= 14)
+			                     $('#benefitsinfo').css('font-size', curSize);
+	                       });
+                        </script>
+		              </div>
+                    </div>
+                    <div class="benefitsContent">
+                        <div>
+                            <h3>Promotes brain activity and positive mood</h3>
+                            <p>
+                                During the aging process brain activity tends to slow and memories can be hazy and difficult to access. The more of these memories that go, the harder it is to recall anything related due to the loss of trigger memories. In order to keep the brain active and responsive, it needs to be stimulated daily. Sometimes, a photograph or song can bring back some of those memories, but in the advanced aging process, even these triggers may not be sufficient. 
+                                Virtual reality not only helps older adults to promote brain activity, but it has also been shown to boost their mood. Nursing homes residents that have tried virtual reality across the globe, such as those at <a href=" https://www.express.co.uk/life-style/health/890722/Virtual-Reality-dementia-patients-care-homes"> ST RAPHAEL'S in East Sussex </a> and <a href="https://www.huffingtonpost.com.au/2016/05/24/can-virtual-reality-trigger-long-locked-away-memories_a_21383162/?guccounter=1&guce_referrer_us=aHR0cHM6Ly93d3cuZ29vZ2xlLmllLw&guce_referrer_cs=QHO4sAT19p2SBabaYsEnNw"> Mercy Health, Melbourne</a>, have reported that they feel less bored and depressed when interacting with the device. 
+                                In addition, the results of a study called <a href="https://link.springer.com/chapter/10.1007/978-3-319-92037-5_8"> “Impact of Virtual Reality (VR) Experience on Older Adults’ Well-Being”</a>, have deduced that “participants that used the VR system reported being less socially isolated, being less likely to show signs of depression, experiencing positive affects more frequently, and feeling better about their overall well-being”. 
+
+                            </p>
+                        </div>
+                            <img src="/img/bg6.jpg" alt="Image of older woman smiling wearing head mount display">
+                    </div>
+                    <div class="benefitsContent2">
+                        <div>
+                            <h3>Promotes Movement</h3>
+                            <p>
+                                Because virtual reality is immersive and interactive, it helps to promote movement. VR headsets can be used with hand-held controls that allow the user to interact with the simulated environment, keeping them active regardless of being chairbound, bedbound, or having other impairments.
+                            </p>
+                        </div>
+                        <img src="/img/usingVR.png" alt="Image of older man pointing up wearing head mount display">
+                    </div>
+                     <div class="benefitsContent3">
+                         <div>
+                            <h3>Promotes Socialisation</h3>
+                            <p>
+                                Social isolation and loneliness are found to be health risks among older adults. Socialisation is vital in older adults, creating a sense of purpose, feelings of belonging, increased self-esteem and improved physical and mental health. Sharing virtual reality experiences can help promote communication amongst older adults, especially when conversation is sometimes limited. 
+                                <br>
+                                Group virtual reality is a good method for encouraging older adults to mingle. A number of older adults can wear different VR headsets and bond over a shared virtual experience at the same time. Using virtual reality not only helps promote unity but also decrease loneliness in older adults, improving their quality of life overall.
+                            </p>
+                        </div>
+                        <img src="/img/conversation.jpg" id="exactline" alt="Image of two older men having a conversation">
+                    </div>
+                    <div class="links">
+                        <h2>Further Information on benefits and advantages of VR for Elderly
+                        </h2>
+                        <p>
+                            "Virtual reality showing actual anecdotal benefits for senior living residents"
+                            <br>
+                            &nbsp;MCKNIGHTSENIORLIVING.COM
+                            <a href="https://www.mcknightsseniorliving.com/news/virtual-reality-showing-actual-anecdotal-benefits-for-senior-living-residents/article/702917/" target="_blank">
+                            &nbsp;READ&nbsp;
+                            </a>
+                        </p>
+                        <p>
+                            "How Virtual Reality Can Assist the Elderly"<br>
+                            &nbsp;VRSCOUT.COM
+                            <a href="https://vrscout.com/news/virtual-reality-can-assist-elderly/" target="_blank">
+                            &nbsp;READ&nbsp;
+                            </a>
+                        </p>
+                        <p>
+                            "Virtual Reality Delivers Real-World Benefits to Dementia Patients"
+                            <br>
+                            &nbsp;INSIGHTS.SAMSUNG.COM
+                            <a href="https://www.mcknightsseniorliving.com/news/virtual-reality-showing-actual-anecdotal-benefits-for-senior-living-residents/article/702917/" target="_blank">
+                            &nbsp;READ&nbsp;
+                            </a>
+                        </p>
+                        <p>
+                           "How skilled nursing facilities are using virtual reality to enhance resident stays"<br>
+                            &nbsp;MCKNIGHT'S LONG-TERM CARE NEWS
+                            <a href="https://www.mcknights.com/marketplace/how-skilled-nursing-facilities-are-using-virtual-reality-to-enhance-resident-stays/article/761959/" target="_blank">
+                            &nbsp;READ&nbsp;
+                            </a>
+                        </p>
+                    </div>
+                    <div class="requestTrial">
+                        <div class="requestTrialButton"> 
+                        <a href="page4.html">REGISTER INTEREST
+                        </a>
+                        </div>
+                    </div>
+                    <div id="BackToTop">
+                        <a href="#top"><img src="/img/top1.png" alt="Back to top of page Icon">Back to Top</a>
+                    </div>
+                </div>
+            </main>
+           <div id="footer">
+               <div id="companydetails">
+                    <div id="SimVirtua">
+                        <a href=""><img src="/img/simvirtuaLogo.png" alt="SimVirtua Logo"></a>
+                        <p>
+                        Simvirtua Ltd.<br>
+                        Hartnett Enterprise Acceleration Centre<br>
+                        Limerick Institute of Technology<br>
+                        Moylish Park<br>
+                        Limerick<br>
+                        T: 087-320-7756
+                        </p>
+                    </div>
+                   <div class="facebookLink">
+                    <a href=""><img src="/img/facebookLink.png" alt="Facebook Logo"></a>
+                    </div>
+               </div>
+            </div>
+        </div>
+    </body>
+</html>
+        

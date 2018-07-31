@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>VR for Elderly</title>
+        <link href="css/stylesheet.css" rel="stylesheet" type="text/css"/>
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script src="/js/jsfile.js"></script>
+    </head>
+    <body>
+        <div id="container">
+            <header id="header">
+                <nav class="menu">
+                    <div id="logo"><a href="index.html"><img src="./img/vrheadsetBAC.png" alt="Website Logo"></a></div>
+                    <div class="current"><a href="index.html">HOME</a></div>
+                    <div><a href="page2.html">BENEFITS</a></div>
+                    <div><a href="page3.html">VR EXPERIENCES</a></div>
+                    <div><a href="page4.html">REQUEST TRIAL</a></div>
+                </nav>  
+                <div class="dropdown">
+                    <div id="mobilelogo"><a href="index.html"><img src="./img/vrheadsetBAC.png" alt="Website Logo"></a></div>
+                    <button onclick="myFunction()" class="dropbtn">MENU</button>
+                    <nav class="dropdown-content" id="myDropdown">
+                        <div><a href="index.html">HOME</a></div>
+                        <div><a href="page2.html">BENEFITS</a></div>
+                        <div><a href="page3.html">VR EXPERIENCES</a></div>
+                        <div><a href="page4.html">REQUEST TRIAL</a></div>
+                    </nav>  
+                </div>
+            </header>
+            <div class="headerimage"><img src="/img/bg.jpg" alt="Image of Mountains"></div>
+            <main id="content" role="main">
+                <div class="about">
+                    <div class="articleheader">
+                        <h2>About VR for the Elderly</h2>
+                        <div class="textcontrols">
+			             <button role="button" id="decreasetext" class="tooltip">       
+                            <span> &nbsp; A- &nbsp;</span>
+                            <span class="tooltiptext">Decrease Text Size</span>
+			             </button>
+			             <button role="button" id="resettext" class="tooltip">
+				            <span>&nbsp; A &nbsp;</span>
+                            <span class="tooltiptext">Reset Text Size</span>
+			             </button>
+			             <button role="button" id="increasetext" class="tooltip">
+				            <span>&nbsp; A+ &nbsp;</span>
+                            <span class="tooltiptext">Increase Text Size</span>
+			             </button>
+                        <script>	
+                           $('#increasetext').click(function() {
+                            curSize = parseInt($('#content').css('font-size')) + 2;
+                              if (curSize <= 32)
+                                 $('#content').css('font-size', curSize);
+                               });
+
+                           $('#resettext').click(function() {
+                              if (curSize != 16)
+                                  $('#content').css('font-size', 16);
+                           });
+
+                           $('#decreasetext').click(function() {
+                            curSize = parseInt($('#content').css('font-size')) - 2;
+                              if (curSize >= 14)
+                                 $('#content').css('font-size', curSize);
+                           });
+                        </script>
+		              </div>
+                    </div>
+                    <div class="par1">
+                       For people who may be housebound due to limited mobility or illness, the real world can become very small and stifling. VR for the Elderly uses 360-degree virtual reality to help older adults to overcome this problem.  360-degree virtual reality is a computer-generated audio-visual simulation of an environment that surrounds a user. Using a head-mount display, the user can view the environment from all directions, just as they can in real life.  VR for the Elderly enables older adults to immersive themselves into the outside world, from the comfort of their own home. 
+                    </div>
+                     <div class="par2">
+                    <p>
+                    The real world can become very small and stifling for people that may be housebound due to limited mobility or illness. VR for the elderly aids in bringing experiences to older adults who no longer freely have access to the outside stimuli that normally would enhance motivation and focus.VR for the Elderly uses 360-degree virtual reality to provide excitement and wonder that would otherwise be impossible for them to experience. 360-degree virtual reality is computer-generated audio-visual simulation of an environments that surrounds a user using a head-mount display. The user can view the environment from all directions, just as they can in real life.  VR for the Elderly therefore enables older adults to immerse themselves into the outside world, from the comfort of their own home.
+                        <br>
+                    VR for the elderly is a great alternative for those who can no longer travel to beautiful destinations and communicate with others, as it can provide them with much needed escapes away from their standard days stuck at home. VR for the elderly can be used to enjoy new experiences or relive old ones. Whether it’s a foreign country they wish to visit or a family occasion they cannot attend - because it is completely computer-generated, scenes can be tailor-made to individual tastes.
+                    </p>
+                    <img src="/img/VrGoggles.jpg" alt="Image of Virtual Reality Goggles" align="center">
+                    </div>
+                    <div class="par3">
+                    There are many benefits for older adults using VR including enhanced wellbeing, mood and engagement levels in older adults who are cognitively well and those living with dementia.  Read more about the benefits of older adults using Virtual Reality <a href="page2.html">here.</a>
+                    Virtual reality can re-create environments that can trigger memories and increase the quality of life by a significant factor for older adults living in aged care facilities. Virtual Reality is has been known to improve residents well-being across many aged care facilities across the globe. For more literature on the benefits of virtual reality in aged care, please see <a href="page2.html#exactline">here</a>.
+                    </div>
+                </div>
+                <div class="info">
+                    <h3><a href="page2.html">Benefits</a></h3>
+                    <a href="page2.html"><img src="./img/BenefitsBAC.png" width="85" alt="Benefits Icon"></a>
+                    <p>
+                        <a href="page2.html">Learn about how virtual reality experiences can be beneficial to older adults. 
+                        </a>
+                    </p>
+                </div>
+                <div class="info">
+                    <h3><a href="page3.html">Sample VR Experiences</a></h3>
+                    <a href="page3.html">
+                        <img src="./img/360IconBAC.png" width="100" alt="Sample Experiences Icon">
+                    </a>
+                    <p>
+                        <a href="page3.html">Take a look at some example 360-degree experiences.
+                        </a>
+                    </p>
+                </div>
+                <div class="info">
+                    <h3><a href="page4.html">Register Interest</a></h3>
+                    <a href="page4.html"><img src="./img/signupIconBAC.png" width="100" alt="Sign Up Icon">
+                    </a>
+                    <p>
+                       <a href="page4.html"> Why not sign up for a free trial of VR for the Elderly?
+                    </a>
+                    </p>
+                </div>
+                <div class="requestTrial">
+                    <div class="requestTrialButton"> 
+                        <a href="page4.html">REGISTER INTEREST
+                        </a>
+                    </div>
+                </div>
+                <div id="BackToTop">
+                    <a href="#top"><img src="/img/top1.png" alt="Back to top of page Icon">Back to Top</a>
+                </div>
+            </main>
+               <div id="footer">
+               <div id="companydetails">
+                    <div id="SimVirtua">
+                        <a href=""><img src="/img/simvirtuaLogo.png" alt="SimVirtua Logo"></a>
+                        <p>
+                        Simvirtua Ltd.<br>
+                        Hartnett Enterprise Acceleration Centre<br>
+                        Limerick Institute of Technology<br>
+                        Moylish Park<br>
+                        Limerick<br>
+                        T: 087-320-7756
+                        </p>
+                    </div>
+                   <div class="facebookLink">
+                    <a href=""><img src="/img/facebookLink.png" alt="Facebook Logo"></a>
+                    </div>
+               </div>
+            </div>
+        </div>
+    </body>
+</html>
+        
