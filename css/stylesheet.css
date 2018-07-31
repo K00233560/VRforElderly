@@ -59,7 +59,7 @@ h3 {
     border-color: powderblue transparent transparent transparent;
 }
 
-@media only screen  and (min-width : 992px) {
+@media only screen  and (min-width : 1000px) {
 
 .current a{
     border: 1px powderblue solid;
@@ -824,7 +824,7 @@ button#decreasetext {
 */
 
 
-@media only screen and (min-width : 665px) and (max-width : 991px){
+@media only screen and (min-width : 665px) and (max-width : 999px){
 
 .current a{
     border: 1px powderblue solid;
