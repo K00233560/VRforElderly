@@ -1926,7 +1926,7 @@ button#decreasetext {
     background-color: #261b25;
     }    
 
-#content > a:any-link{
+#content .info a:any-link{
     color: powderblue;
         
     }
