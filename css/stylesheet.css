@@ -1926,6 +1926,10 @@ button#decreasetext {
     background-color: #261b25;
     }    
 
+#content .info a:any-link{
+    color: powderblue;
+        
+    }
     
 #content .info:nth-child(2){
     grid-row-start: 4;
