@@ -13,68 +13,31 @@ ol a {
 
 h2{
     font-family: 'Source Sans Pro', sans-serif;
-    color:#261b25;
+    color:#222629 ;
     font-size: 20px;
 }
 
 h3 {
-    color:#261b25;
-}
-
-  
-.tooltip {
-    position: relative;
-    display: inline-block;
-    border-bottom: 1px dotted black; 
-}
-
-.tooltip .tooltiptext {
-    visibility: hidden;
-    width: 100px;
-    bottom: 100%;
-    left: 50%; 
-    margin-left: -60px;
-    background-color: powderblue;
-    color: #261b25;
-    text-align: center;
-    padding: 5px 0;
-    border-radius: 6px;
-    position: absolute;
-    z-index: 1;
-}
-
-
-.tooltip:hover .tooltiptext {
-    visibility: visible;
-}
-
-.tooltip .tooltiptext::after {
-    content: " ";
-    position: absolute;
-    top: 100%; 
-    left: 50%;
-    margin-left: -5px;
-    border-width: 5px;
-    border-style: solid;
-    border-color: powderblue transparent transparent transparent;
+    color:#222629 ;
 }
 
 @media only screen  and (min-width : 1000px) {
 
 .current a{
-    border: 1px powderblue solid;
+    border: 1px #86C232 solid;
     padding: 10px;
     //text-shadow: 1px 1px 3px #4c6063;
-    color: powderblue;
-    background: radial-gradient(rgba(219, 219, 219, 0.3), rgba(38, 27, 37, 0.5));
+    color: #66FCF1;
+    background-color: rgba(200, 200, 200, 0.1);
+    //background: radial-gradient(rgba(200, 200, 200, 0.2), rgba(200, 200, 200, 0.2));
 }
     
 .links a   {
     font-size: 18px;
-    background-color: #261b25;
+    background-color: #222629 ;
     text-decoration: none;
     padding: 5px;
-    color: powderblue;
+    color: #66FCF1;
     align-self: center;
 }
     
@@ -110,7 +73,6 @@ main {
     grid-template-rows: 1fr;
     position: sticky;
     top: 0px;
-    //border-bottom: 1px powderblue solid;
 }
     
 #mobilelogo {
@@ -133,7 +95,7 @@ main {
     flex-direction: row;
     justify-content: space-around;
     padding:.5em;
-    background-color: #261b25;
+    background-color: #222629 ;
     position: sticky;
     top:0;
 }
@@ -145,7 +107,7 @@ main {
 .menu a {
     text-decoration: none;
     font-family: 'Source Sans Pro', sans-serif;
-    color: 	powderblue;
+    color: 	white;
     font-size: 18px;
 }
 
@@ -169,41 +131,41 @@ main {
 button {
 	vertical-align: bottom;
 	margin: 0 0.3125em;
-	//padding: .2em;
-	border: 1px solid #fff;
-	background-color: #261b25;
-	font-weight: bold;
+	padding: .2em;
+	border: 1px solid #86C232;
+	background-color: #222629 ;
+	font-weight: 200;
     font-family: 'Source Sans Pro', sans-serif;
 }
 
 button#increasetext {
-    border: 1px #4c6063 solid;
-    background-color: #261b25;
-    //background:linear-gradient(#261b25, grey);
+    border: 1px #86C232 solid;
+    background-color: #222629 ;
+    //background:linear-gradient(#222629 , grey);
 	font-size: 1.2em;
     padding: .5em;
-    color:powderblue;
+    color:white;
 }
 
 button#resettext {
-    border: 1px #4c6063 solid;
-    background-color: #261b25;
-    //background:linear-gradient(#261b25, grey);
+    border: 1px #86C232 solid;
+    background-color: #222629 ;
+    //background:linear-gradient(#222629 , grey);
 	font-size: 1.2em;
     padding-top: .5em;
     padding-bottom: .5em;
     padding-left: .7em;
     padding-right: .7em;
-    color:powderblue;
+    color:white;
 }
 
 button#decreasetext {
-    border: 1px #4c6063 solid;
-    background-color: #261b25;
-    //background: linear-gradient(#261b25, grey);
+    border: 1px #86C232 solid;
+    background-color: #222629 ;
+    //background: linear-gradient(#222629 , grey);
 	font-size: 1.2em;
     padding: .5em;
-    color:powderblue;
+    color:white;
 }
 
 
@@ -211,7 +173,7 @@ button#decreasetext {
 #footer {
     padding: 1em;
     grid-area: f;
-    background-color: #261b25;
+    background-color: #222629 ;
 }
 
 #footer{
@@ -311,7 +273,6 @@ button#decreasetext {
     object-fit: cover;
     //padding-left: 2em;
     align-self:  center;
-    border: 1px #4c6063 solid;
 }
 
 #content .about > .par3{
@@ -320,7 +281,7 @@ button#decreasetext {
 }
 
 #content a {
-    color:#261b25;
+    color:#222629 ;
 }
 
 #content .info{
@@ -340,9 +301,6 @@ button#decreasetext {
     justify-content: center;
 }
 
-#content .info > img {
-  
-}
 
 #content .requestTrial{
     grid-row-start: 4;
@@ -353,14 +311,14 @@ button#decreasetext {
 
 .requestTrialButton {
     justify-self: center;
-    padding-top: 2em;;
+    padding-top: 2em;
     padding-bottom: 2em;
     padding-left: 5em;
     padding-right: 5em;
     justify-content: center;
     grid-row-start: 2;
-    font-size: 18px;
-    background-color: #261b25;
+    font-size: 22px;
+    background-color: #61892F ;
     box-shadow: 1px 1px 8px rgba(38, 33, 35, 0.6);
     font-family: 'Source Sans Pro', sans-serif;
 }
@@ -379,7 +337,7 @@ button#decreasetext {
 }
 
 #BackToTop a{
-    color: #261b25;
+    color: #222629 ;
     padding: 1em;
     text-decoration: none;
     font-family: 'Source Sans Pro', sans-serif;
@@ -429,14 +387,14 @@ button#decreasetext {
 }
 
 #benefitsinfo #benefits .articleheader .textcontrols {
-    //padding: 1em;
+    padding: 1em;
     display: flex;
     flex-direction: row;
     align-self: flex-end;
 }
 
 #benefits h3 {
-    border-bottom: 2px rgba(38, 33, 35, 0.6) solid;
+    border-bottom: 2px #86C232 solid;
     }
 
 .benefitsContent {
@@ -488,7 +446,6 @@ button#decreasetext {
 .benefitsContent3 > img {
     min-height: 300px;
     max-width: 100%;
-    border: 1px rgba(122, 118, 83, 0.6) solid;
     align-self: center;
     justify-content: center;
 }
@@ -497,7 +454,6 @@ button#decreasetext {
 .benefitsContent2 > img{
     min-height: 300px;
     max-width: 100%;
-    border: 1px rgba(122, 118, 83, 0.6) solid;
     align-self: center;
     justify-content: flex-start;
     flex-basis: 45%;
@@ -512,7 +468,7 @@ button#decreasetext {
 }
     
 .links h2{
-    border-bottom: 2px rgba(38, 33, 35, 0.6) solid;
+    border-bottom: 2px #86C232 solid;
     }
 
 .links p { 
@@ -524,8 +480,8 @@ button#decreasetext {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    border-bottom: 1px rgba(38, 33, 35, 0.6) solid;
-    color: #261b25;
+    border-bottom: 1px #86C232 solid;
+    color: #222629 ;
     }
     
 
@@ -572,7 +528,7 @@ button#decreasetext {
 #sampleVideos h2{
     grid-row-start: 1;
     font-family: 'Source Sans Pro', sans-serif;
-    color:#261b25;
+    color:#222629 ;
     font-size: 20px;
 }
 
@@ -642,7 +598,7 @@ button#decreasetext {
 
 
 .thumbnail {
-    border: 1px rgba(122, 118, 83, 0.6) solid;
+    border: 1px #86C232 solid;
     box-shadow: 1px 1px 8px rgba(38, 33, 35, 0.6);
     opacity: 1;
     display: block;
@@ -688,7 +644,6 @@ button#decreasetext {
     display:grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: 1fr;
-    //border-bottom: 1px powderblue solid;
     line-height: 1.8;
 }
     
@@ -700,7 +655,7 @@ button#decreasetext {
     flex-direction: row;
     justify-content: space-around;
     padding:.5em;
-    background-color: #261b25;
+    background-color: #222629 ;
 }
 
 .vidmenu > div { 
@@ -710,7 +665,7 @@ button#decreasetext {
 .vidmenu a {
     text-decoration: none;
     font-family: 'Source Sans Pro', sans-serif;
-    color: 	powderblue;
+    color: 	white;
     font-size: 18px;
 }
 
@@ -739,7 +694,7 @@ button#decreasetext {
     
 #breadcrumb ol li a{
     padding: 10px;
-    color:#261b25;
+    color:#222629 ;
     font-family: 'Source Sans Pro', sans-serif;
     }
     
@@ -764,7 +719,7 @@ button#decreasetext {
     padding: 2em;}
 
 .backtoGallery a {
-    color: powderblue;
+    color: #66FCF1;
     text-decoration: none;
     justify-self: center;
     padding-top: 2em;;
@@ -774,9 +729,9 @@ button#decreasetext {
     justify-content: center;
     grid-row-start: 2;
     font-size: 18px;
-    //background: radial-gradient(powderblue, #261b25);
-    background-color: #261b25;
-    border: 2px powderblue solid;
+    //background: radial-gradient(#66FCF1, #222629 );
+    background-color: #222629 ;
+    border: 2px #86C232 solid;
     //border-radius: 15px;
     font-family: 'Source Sans Pro', sans-serif;
 }
@@ -801,7 +756,7 @@ button#decreasetext {
 #googleform {
     grid-row-start: 1;
     grid-column-start: 2;
-    border:2px rgba(38, 33, 35, 0.6) solid;
+    border:1px #6B6E70 solid;
 }
 
 
@@ -821,17 +776,17 @@ button#decreasetext {
 @media only screen and (min-width : 665px) and (max-width : 999px){
 
 .current a{
-    border: 1px powderblue solid;
+    border: 1px #86C232 solid;
     padding: 8px;
     background: radial-gradient(rgba(219, 219, 219, 0.3), rgba(38, 27, 37, 0.5));
 }
         
 .links a   {
     font-size: 18px;
-    background-color: #261b25;
+    background-color: #222629 ;
     text-decoration: none;
     padding: 5px;
-    color: powderblue;
+    color: #66FCF1;
     align-self: center;
 }
     
@@ -866,7 +821,6 @@ main {
     grid-template-rows: 1fr;
     position: sticky;
     top: 0px;
-    //border-bottom: 1px powderblue solid;
 }
 
 #mobilelogo {
@@ -889,7 +843,7 @@ main {
     flex-direction: row;
     justify-content: space-around;
     padding:.2em;
-    background-color: #261b25;
+    background-color: #222629 ;
     position: sticky;
     top:0;
 }
@@ -901,7 +855,7 @@ main {
 .menu a {
     text-decoration: none;
     font-family: 'Source Sans Pro', sans-serif;
-    color: 	powderblue;
+    color: 	white;
     font-size: 16px;
 }
     
@@ -925,43 +879,43 @@ button {
 	vertical-align: bottom;
 	margin: 0 0.3125em;
 	padding: .2em;
-	border: 1px solid #fff;
-	background-color: #261b25;
-	font-weight: bold;
+	border: 1px solid #86C232;
+	background-color: #222629 ;
+	font-weight:200;
     font-family: 'Source Sans Pro', sans-serif;
 }
 
 button#increasetext {
-    border: 1px #4c6063 solid;
-    background-color: #261b25;
+    border: 1px #86C232 solid;
+    background-color: #222629 ;
 	font-size: 1em;
     padding-left: .3em;
     padding-right: .3em;
     padding-top:.2em;
     padding-bottom: .2em;
-    color:powderblue;
+    color:white;
 }
 
 button#resettext {
-    border: 1px #4c6063 solid;
-    background-color: #261b25;
+    border: 1px #86C232 solid;
+    background-color: #222629 ;
 	font-size: 1em;
     padding-top: .2em;
     padding-bottom: .2em;
     padding-left: .5em;
     padding-right: .5em;
-    color:powderblue;
+    color:white;
 }
 
 button#decreasetext {
-    border: 1px #4c6063 solid;
-    background-color: #261b25;
+    border: 1px #86C232 solid;
+    background-color: #222629 ;
 	font-size: 1em;
     padding-left: .3em;
     padding-right: .3em;
     padding-top:.2em;
     padding-bottom: .2em;
-    color:powderblue;
+    color:white;
 }
 
 
@@ -969,7 +923,7 @@ button#decreasetext {
 #footer {
     padding: 1em;
     grid-area: f;
-    background-color: #261b25;
+    background-color: #222629 ;
 }
 
 #footer{
@@ -1076,7 +1030,7 @@ button#decreasetext {
 }
 
 #content a {
-    color:#261b25;
+    color:#222629 ;
 }
 
 #content .info{
@@ -1116,7 +1070,7 @@ button#decreasetext {
     justify-content: center;
     grid-row-start: 2;
     font-size: 18px;
-    background-color: #261b25;
+    background-color: #61892F ;
     font-family: 'Source Sans Pro', sans-serif;
     box-shadow: 1px 1px 4px rgba(38, 33, 35, 0.6);
 }
@@ -1139,18 +1093,17 @@ button#decreasetext {
 #content #BackToTop:hover{
     opacity: 1;
     font-weight: bold;
-    text-shadow: 1px 1px 1px 1px #261b25;
+    text-shadow: 1px 1px 1px 1px #222629 ;
     }
     
 #BackToTop a{
-    color: #261b25;
+    color: #222629 ;
     padding: .5em;
     text-decoration: none;
     font-family: 'Source Sans Pro', sans-serif;
     display:flex;
     flex-direction: column;
     justify-content: center;
-    border-radius: 10px;
     font-weight: bold;
     text-align: center;
     align-self: center;
@@ -1242,7 +1195,6 @@ button#decreasetext {
 .benefitsContent3 > img {
     height: 300px;
     object-fit: cover;
-    border: 1px rgba(122, 118, 83, 0.6) solid;
 }
 
 .links {
@@ -1252,12 +1204,12 @@ button#decreasetext {
 }
 
 .links h2{
-    border-bottom: 2px rgba(38, 33, 35, 0.6) solid;
+    border-bottom: 2px #86C232 solid;
     }
     
 .links p { 
     line-height: 2;
-    border-bottom: 1px rgba(38, 33, 35, 0.6) solid;
+    border-bottom: 1px #86C232 solid;
     //background-color: rgba(38, 33, 35, 0.6);
     padding-top: .5em;
     padding-bottom:.5em;
@@ -1266,7 +1218,7 @@ button#decreasetext {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    color: #261b25;
+    color: #222629 ;
 }
     
 #benefits .requestTrial{
@@ -1298,7 +1250,7 @@ button#decreasetext {
 #benefits #BackToTop:hover{
     opacity: 1;
     font-weight: bold;
-    text-shadow: 1px 1px 1px 1px #261b25;
+    text-shadow: 1px 1px 1px 1px #222629 ;
     }
     
 
@@ -1322,13 +1274,13 @@ button#decreasetext {
 #sampleVideos h2{
     grid-row-start: 1;
     font-family: 'Source Sans Pro', sans-serif;
-    color:#261b25;
+    color:#222629 ;
     font-size: 20px;
 }
 
 #sampleVideos p{;
     font-family: 'Source Sans Pro', sans-serif;
-    color:#261b25;
+    color:#222629 ;
     text-align: center;
 }
     
@@ -1401,7 +1353,7 @@ button#decreasetext {
 #sampleVideos #BackToTop:hover{
     opacity: 1;
     font-weight: bold;
-    text-shadow: 1px 1px 1px 1px #261b25;
+    text-shadow: 1px 1px 1px 1px #222629 ;
     }
     
 
@@ -1411,7 +1363,7 @@ button#decreasetext {
     }
     
 .thumbnail {
-    border: 1px rgba(122, 118, 83, 0.6) solid;
+    border: 1px #86C232 solid;
     box-shadow: 1px 1px 8px rgba(38, 33, 35, 0.6);
     opacity: 1;
     display: block;
@@ -1466,7 +1418,7 @@ button#decreasetext {
     flex-direction: row;
     justify-content: space-around;
     padding:.5em;
-    background-color: #261b25;
+    background-color: #222629 ;
 }
 
 .vidmenu > div { 
@@ -1476,7 +1428,7 @@ button#decreasetext {
 .vidmenu a {
     text-decoration: none;
     font-family: 'Source Sans Pro', sans-serif;
-    color: 	powderblue;
+    color: 	white;
     font-size: 16px;
 }
 
@@ -1506,7 +1458,7 @@ button#decreasetext {
 #breadcrumb ol li a{
     padding: 10px;
     padding-left: 0px;
-    color:#261b25;
+    color:#222629 ;
     font-family: 'Source Sans Pro', sans-serif;
     }
     
@@ -1531,7 +1483,7 @@ button#decreasetext {
     padding: 2em;}
 
 .backtoGallery a {
-    color: powderblue;
+    color: #66FCF1;
     text-decoration: none;
     justify-self: center;
     padding-top: 2em;;
@@ -1541,9 +1493,9 @@ button#decreasetext {
     justify-content: center;
     grid-row-start: 2;
     font-size: 18px;
-    //background: radial-gradient(powderblue, #261b25);
-    background-color: #261b25;
-    border: 2px powderblue solid;
+    //background: radial-gradient(#66FCF1, #222629 );
+    background-color: #222629 ;
+    border: 2px #86C232 solid;
     //border-radius: 15px;
     font-family: 'Source Sans Pro', sans-serif;
 }
@@ -1568,7 +1520,7 @@ button#decreasetext {
 #googleform {
     grid-row-start: 1;
     grid-column-start: 2;
-    border:2px rgba(38, 33, 35, 0.6) solid;
+    border:1px #6B6E70 solid;
 }
 
     
@@ -1585,7 +1537,7 @@ button#decreasetext {
 #requestTrialForm #BackToTop:hover{
     opacity: 1;
     font-weight: bold;
-    text-shadow: 1px 1px 1px 1px #261b25;
+    text-shadow: 1px 1px 1px 1px #222629 ;
     }
     
 
@@ -1605,16 +1557,16 @@ button#decreasetext {
 @media screen and (max-width:665px) {
 
 .current a{
-    background-color: powderblue;
+    background-color: #66FCF1;
     padding: 1em;
 }
 
 .links a   {
     font-size: 18px;
-    background-color: #261b25;
+    background-color: #222629 ;
     text-decoration: none;
     padding: 5px;
-    color: powderblue;
+    color: #66FCF1;
 }
     
 #container {
@@ -1647,13 +1599,10 @@ main {
     display:grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: 1fr;
-    //position: sticky;
-    //top: 0px;
-    //border-bottom: 1px powderblue solid;
 }
 
 .dropbtn {
-    background-color: #261b25;
+    background-color: #222629 ;
     color: white;
     padding: 16px;
     font-size: 16px;
@@ -1677,7 +1626,7 @@ main {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #261b25;
+    background-color: #222629 ;
     min-width: 100%;
     overflow: auto;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -1686,7 +1635,7 @@ main {
 }
 
 .dropdown-content a {
-    color: powderblue;
+    color: #66FCF1;
     padding: 1em;
     text-decoration: none;
     display: block;
@@ -1714,7 +1663,7 @@ main {
 .menu a {
     text-decoration: none;
     font-family: 'Source Sans Pro', sans-serif;
-    color: 	powderblue;
+    color: 	white;
     font-size: 14px;
 }
 
@@ -1723,7 +1672,7 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    background-color: #261b25;
+    background-color: #222629 ;
     }
     
 #mobilelogo img   {
@@ -1753,43 +1702,43 @@ button {
 	vertical-align: bottom;
 	margin: 0 0.3125em;
 	//padding: .2em;
-	border: 1px solid #fff;
-	background-color: #261b25;
-	font-weight: bold;
+	border: 1px solid #86C232;
+	background-color: #222629 ;
+	font-weight: 200;
     font-family: 'Source Sans Pro', sans-serif;
 }
 
 button#increasetext {
-    border: 1px #4c6063 solid;
-    background-color: #261b25;
+    border: 1px #86C232 solid;
+    background-color: #222629 ;
 	font-size: 1em;
     padding-left: 3px;
     padding-right: 3px;
     padding-top:4px;
     padding-bottom: 4px;
-    color:powderblue;
+    color:white;
 }
 
 button#resettext {
-    border: 1px #4c6063 solid;
-    background-color: #261b25;
+    border: 1px #86C232 solid;
+    background-color: #222629 ;
 	font-size: 1em;
     padding-left: 5px;
     padding-right: 5px;
     padding-top:3px;
     padding-bottom: 3px;
-    color:powderblue;
+    color:white;
 }
 
 button#decreasetext {
-    border: 1px #4c6063 solid;
-    background-color: #261b25;
+    border: 1px #86C232 solid;
+    background-color: #222629 ;
 	font-size: 1em;
     padding-left: 3px;
     padding-right: 3px;
     padding-top:1px;
     padding-bottom: 1px;
-    color:powderblue;
+    color:white;
 }
 
 
@@ -1797,7 +1746,7 @@ button#decreasetext {
 #footer {
     padding: .2em;
     grid-area: f;
-    background-color: #261b25;
+    background-color: #222629 ;
 }
 
 #footer{
@@ -1899,20 +1848,19 @@ button#decreasetext {
 }
 
 #content a {
-    color:powderblue;
+    color:#66FCF1;
 }
     
 #content .about a {
-    color:#261b25;
+    color:#222629 ;
 }
 
 .info {
-    background-color: #261b25;
+    background-color: #222629 ;
     }    
 
 #content .info a{
-    color: powderblue;
-        
+    color: #66FCF1;  
     }
     
 #content .info:nth-child(2){
@@ -1922,7 +1870,6 @@ button#decreasetext {
     display:grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
-    border: 1px powderblue solid;
     //padding:1em;
     justify-content: center;
     font-family: 'Source Sans Pro', sans-serif;
@@ -1936,7 +1883,6 @@ button#decreasetext {
     display:grid;
     grid-template-columns: 1fr;  
     grid-template-rows: auto;
-    border: 1px powderblue solid;
     //padding:1em;
     justify-content: center;
     font-family: 'Source Sans Pro', sans-serif;
@@ -1950,7 +1896,6 @@ button#decreasetext {
     display:grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
-    border: 2px powderblue solid;
     //padding:1em;
     justify-content: center;
     font-family: 'Source Sans Pro', sans-serif;
@@ -1980,7 +1925,7 @@ button#decreasetext {
     justify-content: center;
     grid-row-start: 2;
     font-size: 18px;
-    background-color: #261b25;
+    background-color: #61892F ;
     font-family: 'Source Sans Pro', sans-serif;
     box-shadow: 1px 1px 4px rgba(38, 33, 35, 0.6);
 }
@@ -2002,11 +1947,11 @@ button#decreasetext {
 #content #BackToTop:hover{
     opacity: 1;
     font-weight: bold;
-    text-shadow: 1px 1px 1px 1px #261b25;
+    text-shadow: 1px 1px 1px 1px #222629 ;
     }
     
 #BackToTop a {
-    color: #261b25;
+    color: #222629 ;
     padding: .5em;
     text-decoration: none;
     font-family: 'Source Sans Pro', sans-serif;
@@ -2108,7 +2053,6 @@ button#decreasetext {
 .benefitsContent > img,
 .benefitsContent2 > img,
 .benefitsContent3 > img {
-    border: 1px rgba(38, 33, 35, 0.6) solid;
     height: 200px;
     object-fit: cover;
 }
@@ -2121,12 +2065,12 @@ button#decreasetext {
 }
 
 .links h2{
-    //border-bottom: 2px rgba(38, 33, 35, 0.6) solid;
+    //border-bottom: 2px #86C232 solid;
     }
     
 .links p { 
     line-height: 2;
-    border-top: 1px rgba(38, 33, 35, 0.6) solid;
+    border-top: 1px #86C232 solid;
     //border-left: 1px rgba(38, 33, 35, 0.6) solid;
     //border-right: 1px rgba(38, 33, 35, 0.6) solid;
     //background-color: rgba(38, 33, 35, 0.6);
@@ -2135,7 +2079,7 @@ button#decreasetext {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    color: #261b25;
+    color: #222629 ;
     }
     
 .links p a{
@@ -2167,11 +2111,11 @@ button#decreasetext {
 #benefits #BackToTop:hover{
     opacity: 1;
     font-weight: bold;
-    text-shadow: 1px 1px 1px 1px #261b25;
+    text-shadow: 1px 1px 1px 1px #222629 ;
     }
     
 #BackToTop a {
-    color: #261b25;
+    color: #222629 ;
     padding: .5em;
     text-decoration: none;
     font-family: 'Source Sans Pro', sans-serif;
@@ -2203,13 +2147,13 @@ button#decreasetext {
 #sampleVideos h2{
     grid-row-start: 1;
     font-family: 'Source Sans Pro', sans-serif;
-    color:#261b25;
+    color:#222629 ;
     font-size: 20px;
 }
 
 #sampleVideos p{;
     font-family: 'Source Sans Pro', sans-serif;
-    color:#261b25;
+    color:#222629 ;
     text-align: center;
 }
     
@@ -2280,11 +2224,11 @@ button#decreasetext {
 #sampleVideos #BackToTop:hover{
     opacity: 1;
     font-weight: bold;
-    text-shadow: 1px 1px 1px 1px #261b25;
+    text-shadow: 1px 1px 1px 1px #222629 ;
     }
     
 #BackToTop a {
-    color: #261b25;
+    color: #222629 ;
     padding: .5em;
     text-decoration: none;
     font-family: 'Source Sans Pro', sans-serif;
@@ -2301,7 +2245,7 @@ button#decreasetext {
     }
     
 .thumbnail {
-    border: 1px #261b25 solid;
+    border: 1px #222629  solid;
     opacity: 1;
     display: block;
     width: 100%;
@@ -2346,7 +2290,7 @@ button#decreasetext {
     display:grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: 1fr;
-    //border-bottom: 1px powderblue solid;
+    //border-bottom: 1px #66FCF1 solid;
 }
 .vidmenu {
     display: none;
@@ -2359,7 +2303,7 @@ button#decreasetext {
 .vidmenu a {
     text-decoration: none;
     font-family: 'Source Sans Pro', sans-serif;
-    color: 	powderblue;
+    color: 	white;
     font-size: 16px;
 }
 
@@ -2385,7 +2329,7 @@ button#decreasetext {
 #breadcrumb ol li a{
     padding: 10px;
     padding-left: 0px;
-    color:#261b25;
+    color:#222629 ;
     font-family: 'Source Sans Pro', sans-serif;
     }
     
@@ -2410,7 +2354,7 @@ button#decreasetext {
     padding: 2em;}
 
 .backtoGallery a {
-    color: powderblue;
+    color: #66FCF1;
     text-decoration: none;
     justify-self: center;
     padding-top: 1em;;
@@ -2420,8 +2364,8 @@ button#decreasetext {
     justify-content: center;
     grid-row-start: 2;
     font-size: 18px;
-    background-color: #261b25;
-    border: 2px powderblue solid;
+    background-color: #222629 ;
+    border: 2px #86C232 solid;
     //border-radius: 15px;
     font-family: 'Source Sans Pro', sans-serif;
 }
@@ -2446,7 +2390,7 @@ button#decreasetext {
 #googleform {
     grid-row-start: 1;
     grid-column-start: 2;
-    border:2px rgba(38, 33, 35, 0.6) solid;
+    border:1px #6B6E70 solid;
 }
 
     
