@@ -27,7 +27,7 @@ h3 {
     border: 1px #86C232 solid;
     padding: 10px;
     //text-shadow: 1px 1px 3px #4c6063;
-    color: #66FCF1;
+    color: white;
     background-color: rgba(200, 200, 200, 0.1);
     //background: radial-gradient(rgba(200, 200, 200, 0.2), rgba(200, 200, 200, 0.2));
 }
@@ -37,7 +37,7 @@ h3 {
     background-color: #222629 ;
     text-decoration: none;
     padding: 5px;
-    color: #66FCF1;
+    color: #86C232;
     align-self: center;
 }
     
@@ -719,7 +719,7 @@ button#decreasetext {
     padding: 2em;}
 
 .backtoGallery a {
-    color: #66FCF1;
+    color: white;
     text-decoration: none;
     justify-self: center;
     padding-top: 2em;;
@@ -729,10 +729,8 @@ button#decreasetext {
     justify-content: center;
     grid-row-start: 2;
     font-size: 18px;
-    //background: radial-gradient(#66FCF1, #222629 );
     background-color: #222629 ;
     border: 2px #86C232 solid;
-    //border-radius: 15px;
     font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -786,7 +784,7 @@ button#decreasetext {
     background-color: #222629 ;
     text-decoration: none;
     padding: 5px;
-    color: #66FCF1;
+    color: #86C232;
     align-self: center;
 }
     
@@ -1483,7 +1481,7 @@ button#decreasetext {
     padding: 2em;}
 
 .backtoGallery a {
-    color: #66FCF1;
+    color: white;
     text-decoration: none;
     justify-self: center;
     padding-top: 2em;;
@@ -1493,10 +1491,7 @@ button#decreasetext {
     justify-content: center;
     grid-row-start: 2;
     font-size: 18px;
-    //background: radial-gradient(#66FCF1, #222629 );
-    background-color: #222629 ;
-    border: 2px #86C232 solid;
-    //border-radius: 15px;
+    background-color: #86C232;
     font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -1557,7 +1552,7 @@ button#decreasetext {
 @media screen and (max-width:665px) {
 
 .current a{
-    background-color: #66FCF1;
+    background-color: white;
     padding: 1em;
 }
 
@@ -1566,7 +1561,7 @@ button#decreasetext {
     background-color: #222629 ;
     text-decoration: none;
     padding: 5px;
-    color: #66FCF1;
+    color: #86C232;
 }
     
 #container {
@@ -1635,7 +1630,7 @@ main {
 }
 
 .dropdown-content a {
-    color: #66FCF1;
+    color: white;
     padding: 1em;
     text-decoration: none;
     display: block;
@@ -1644,7 +1639,7 @@ main {
 }
 
 .dropdown a:hover {
-    background-color: rgba(54, 69, 71, 0.7);
+    background-color: rgba(97, 137, 47, 0.7);
     //padding: 1em;
     }
 
@@ -1789,8 +1784,7 @@ button#decreasetext {
     display:grid;
     grid-template-columns: repeat(3, 1fr);
     padding: .2em;
-    grid-gap: .1em;
-    font-family: sans-serif; 
+    grid-gap: 1em; 
 }
 
 #content a{
@@ -1847,20 +1841,21 @@ button#decreasetext {
     grid-column: 1/ span 3;
 }
 
-#content a {
-    color:#66FCF1;
-}
     
 #content .about a {
     color:#222629 ;
 }
 
 .info {
-    background-color: #222629 ;
+    background-color: #61892F;
     }    
 
 #content .info a{
-    color: #66FCF1;  
+    color: white;  
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    font-weight:100;
+    text-transform: uppercase;
     }
     
 #content .info:nth-child(2){
@@ -1870,7 +1865,6 @@ button#decreasetext {
     display:grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
-    //padding:1em;
     justify-content: center;
     font-family: 'Source Sans Pro', sans-serif;
     text-align: center;
@@ -2290,7 +2284,6 @@ button#decreasetext {
     display:grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: 1fr;
-    //border-bottom: 1px #66FCF1 solid;
 }
 .vidmenu {
     display: none;
@@ -2354,7 +2347,7 @@ button#decreasetext {
     padding: 2em;}
 
 .backtoGallery a {
-    color: #66FCF1;
+    color: white;
     text-decoration: none;
     justify-self: center;
     padding-top: 1em;;
