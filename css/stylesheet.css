@@ -1609,7 +1609,8 @@ main {
 }
 
 .dropbtn:hover, .dropbtn:active {
-    background-color: rgba(54, 69, 71, 0.7);
+    background-color: rgba(97, 137, 47, 0.7);
+    outline: none;
 }
 
 .dropdown {
